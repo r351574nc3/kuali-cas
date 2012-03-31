@@ -39,13 +39,7 @@
   </dependencies>
 
   <properties>
-    <cas.version>3.4.3</cas.version>
+    <cas.version>3.4.11</cas.version>
   </properties>
 
-  <repositories>
-    <repository>
-      <id>ja-sig</id>
-      <url>http://oss.sonatype.org/content/repositories/releases/</url>
-    </repository>
-  </repositories>
 </project>
