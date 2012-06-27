@@ -24,6 +24,8 @@
 
 			https://wiki.jasig.org/display/CASUM/LDAP
 	-->
+	<bean id="auditTrailManager" class="com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager" />
+
 	<bean id="ldapContextSource" class="org.springframework.ldap.core.support.LdapContextSource">
 		<property name="pooled" value="false"/>
 		<property name="urls">
